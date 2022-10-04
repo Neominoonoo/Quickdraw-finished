@@ -1,0 +1,46 @@
+body {
+    background-image: linear-gradient(lightblue, rgb(206, 113, 128) 90%, rgb(206, 100, 128));
+    color: rgb(255, 245, 197);
+}
+
+.btn {
+    background-color: rgb(206, 113, 128);
+    border-width: 2px;
+    border-color: rgb(255, 245, 197);
+    border-radius: 40px;
+}
+
+#background {
+    background-color: rgb(206, 113, 128);
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 10px;
+    border-radius: 40px;
+    border-width: 2px;
+    border-color: rgb(255, 245, 197);
+    padding-bottom: 20px;
+    padding-top: 1px;
+
+}
+
+canvas {
+    border-radius: 20px;
+    border: 7px double rgb(255, 245, 197);
+}
+
+p,
+span {
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+#score {
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+#time {
+    font-size: 35px;
+    float: right;
+    margin-right: 20px;
+}
